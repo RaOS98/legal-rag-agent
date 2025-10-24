@@ -1,0 +1,16 @@
+# Core LangChain 1.x
+langchain>=1.0.0,<1.1.0
+
+# Integrations (still 0.x but fully compatible)
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-ollama>=0.1.0
+
+# Local vector store
+faiss-cpu>=1.8.0
+
+# PDF loader
+pypdf>=4.2.0
+
+# Env config
+python-dotenv>=1.0.1
